@@ -36,7 +36,15 @@ header {
     font-size: 1.2em;
     text-align: justify; }
 
-.img-container h2 {
+.team h2 {
   text-align: center; }
+.team .img-container {
+  margin: 0.75em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+.team img {
+  margin: 6px 3px;
+  flex-basis: 30%; }
 
 /*# sourceMappingURL=style.css.map */

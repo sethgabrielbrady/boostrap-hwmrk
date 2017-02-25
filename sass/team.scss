@@ -1,0 +1,16 @@
+
+.team {
+  h2{
+    text-align:center;
+  }
+  .img-container {
+    margin:$imgContainerMargin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    img{
+      margin:$teamImageMargins;
+      flex-basis:$teamImageFlexBasis;
+    }
+}
