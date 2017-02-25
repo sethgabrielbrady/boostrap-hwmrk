@@ -17,10 +17,26 @@ header {
   background-image: url(blackgeometric.jpg);
   color: #ffffff;
   text-align: center; }
+  .jumbotron h2 {
+    font-size: 2.5em; }
   .jumbotron h3 {
     font-weight: lighter; }
   .jumbotron .btn-primary {
     background-color: #5cb85c;
     border-color: #5cb85c; }
+
+.summary {
+  text-align: center; }
+  .summary h2 {
+    font-size: 2.5em; }
+  .summary h3 {
+    line-height: 1.5em;
+    font-weight: 350;
+    margin: 1em;
+    font-size: 1.2em;
+    text-align: justify; }
+
+.img-container h2 {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
