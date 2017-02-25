@@ -18,7 +18,7 @@ header {
   color: #ffffff;
   text-align: center; }
   .jumbotron h2 {
-    font-size: 2.5em; }
+    font-size: 2.75em; }
   .jumbotron h3 {
     font-weight: lighter; }
   .jumbotron .btn-primary {
@@ -28,8 +28,8 @@ header {
 .summary {
   text-align: center; }
   .summary h2 {
-    font-size: 2.5em; }
-  .summary h3 {
+    font-size: 2.75em; }
+  .summary p {
     line-height: 1.5em;
     font-weight: 350;
     margin: 1em;
@@ -46,5 +46,30 @@ header {
 .team img {
   margin: 6px 3px;
   flex-basis: 30%; }
+
+.our-widgets {
+  text-align: center;
+  background-color: #d9edf7;
+  padding: 1em; }
+  .our-widgets h2 {
+    font-size: 2.75em; }
+  .our-widgets p {
+    line-height: 1.5em;
+    font-weight: 350;
+    margin: 1em;
+    font-size: 1.2em;
+    text-align: justify; }
+  .our-widgets .alert {
+    text-align: center;
+    font-weight: bold; }
+  .our-widgets .glyph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .our-widgets .glyph-container i {
+      flex: 50%;
+      font-size: 4em; }
+  .our-widgets nav {
+    margin: 2em; }
 
 /*# sourceMappingURL=style.css.map */

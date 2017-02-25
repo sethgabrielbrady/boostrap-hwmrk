@@ -7,7 +7,7 @@
     font-size:$h2FontSize;
   }
 
-  h3 {
-    @include h3TextStyle;
+  p {
+    @include paragraphTextStyle;
   }
 }

@@ -1,0 +1,34 @@
+
+
+.our-widgets {
+  text-align:center;
+  background-color:$ourWidgetsBg;
+  padding:1em;
+  h2{
+    font-size:$h2FontSize;
+
+  }
+  p {
+    @include paragraphTextStyle;
+  }
+    .alert{
+      text-align:center;
+      font-weight: bold;
+    }
+    .glyph-container{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        flex:50%;
+        font-size:4em
+      }
+    }
+
+    nav{
+      margin:2em;
+        
+    }
+
+}
