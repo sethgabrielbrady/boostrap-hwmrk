@@ -1,9 +1,23 @@
 
+
 header{
   background-color:$headerBgColor;
+  color:$navJumboTextColor;
+  display:flex;
+
+  h1, nav{
+    flex:1;
+  }
+
+  h1 {
+    padding:$headerH1padding;
+    margin:$headerH1Margin;
+  }
+
+  nav {
+    font-size:$headerNavBurgerFontSize;
+    font-weight:bold;
+    text-align:right;
+    align-self: center;
+  }
 }
-
- h1 {
-   color:$navTextColor; //sass test
-
- }

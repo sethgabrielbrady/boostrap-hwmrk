@@ -1,0 +1,18 @@
+
+
+
+.jumbotron {
+  background-image:$jumbotronBgImage;
+  // background-image:$jumbotronBgImageSize;
+  color:$navJumboTextColor;
+  text-align: center;
+
+      h3 {
+        font-weight:lighter;
+      }
+
+     .btn-primary {
+      background-color:$orderNowBtnColor;
+      border-color:$orderNowBtnColor;
+    }
+}

@@ -1,7 +1,26 @@
 header {
-  background-color: #000000; }
+  background-color: #000000;
+  color: #ffffff;
+  display: flex; }
+  header h1, header nav {
+    flex: 1; }
+  header h1 {
+    padding: 0.25em 0;
+    margin: 0; }
+  header nav {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: right;
+    align-self: center; }
 
-h1 {
-  color: #ffffff; }
+.jumbotron {
+  background-image: url(blackgeometric.jpg);
+  color: #ffffff;
+  text-align: center; }
+  .jumbotron h3 {
+    font-weight: lighter; }
+  .jumbotron .btn-primary {
+    background-color: #5cb85c;
+    border-color: #5cb85c; }
 
 /*# sourceMappingURL=style.css.map */
