@@ -57,16 +57,16 @@
     </p>
     <p class="alert alert-warning" role="alert">New widgets being added all the time!</p>
     <ul class='glyph-container'>
-      <li><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i>
-      <span class="badge">42</span></li>
-      <li><i class="glyphicon glyphicon-screenshot" aria-hidden="true"></i>
-      <span class="badge">11</span></li>
-      <li><i class="glyphicon glyphicon-dashboard" aria-hidden="true"></i>
-      <span class="badge">19</span></li>
-      <li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>
-      <span class="badge">3</span></li>
-      <li><i class="glyphicon glyphicon-knight" aria-hidden="true"></i>
-      <span class="badge">23</span></li>
+      <li><i class="glyphicon glyphicon-headphones" aria-hidden="true">
+      <span class="badge">42</span></i></li>
+      <li><i class="glyphicon glyphicon-screenshot" aria-hidden="true">
+      <span class="badge">11</span></i></li>
+      <li><i class="glyphicon glyphicon-dashboard" aria-hidden="true">
+      <span class="badge">19</span></i></li>
+      <li><i class="glyphicon glyphicon-log-in" aria-hidden="true">
+      <span class="badge">3</span></i></li>
+      <li><i class="glyphicon glyphicon-knight" aria-hidden="true">
+      <span class="badge">23</span></i></li>
     </ul>
 
     <nav class ='our-widget-nav' aria-label="Page navigation">
@@ -98,6 +98,7 @@
     <section class='ordering'>
       <h2>Place Your Order</h2>
 
+      <form action='http://requestb.in/12cv1sa1' method='POST'>
       <section class='item-details form-group'>
       <header class='form-description'><h3>Item Details</h3></header>
         <fieldset>
@@ -150,7 +151,9 @@
 
 
 
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Confirm Order</a></p>
+      <input type='submit' value="Confirm Order" name='submit-btn' id ='submit-btn' class="btn btn-primary btn-lg">
+
+    </form>
       <span class ='to-top'>
         <i class="glyphicon glyphicon-chevron-up" aria-hidden="true"></i>
         <a href='#top'> go to top</a>

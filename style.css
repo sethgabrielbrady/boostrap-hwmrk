@@ -84,13 +84,15 @@ header {
     list-style: none; }
     .our-widgets .glyph-container li {
       flex: 1;
-      position: relative; }
+      align-self: center; }
       .our-widgets .glyph-container li i {
-        font-size: 4em; }
+        font-size: 4em;
+        position: relative; }
       .our-widgets .glyph-container li .badge {
-        font-size: 1.25em;
-        top: -5px;
-        right: 20px;
+        font-family: sans-serif;
+        font-size: 0.3em;
+        top: 0;
+        right: -20px;
         background-color: #337ab7;
         position: absolute; }
 
@@ -126,7 +128,7 @@ header {
         align-items: center;
         margin: 1em 0; }
         .ordering .form-group fieldset .quantity .number {
-          width: 10%;
+          width: 3em;
           margin-left: 1em; }
       .ordering .form-group fieldset .gift-wrap {
         display: flex; }

@@ -14,31 +14,34 @@
   }
     .alert{
       text-align:center;
-      font-weight:$ourWidgetsAlertFontWeight;
+      font-weight:$widgetsAlertFontWeight;
     }
-    .glyph-container{
-      padding:0;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      list-style: none;
+  .glyph-container{
+    padding:$widgetGlyphContainerPadding;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 
-      li{
-        flex:$ourWidgetsGlyphFlex;
+    li{
+      flex:$widgetsGlyphFlex;
+      align-self: center;
+      i {
+        font-size:$widgetsGlyphSize;
         position:relative;
-        i {
-          font-size:$ourWidgetsGlyphSize;
-        }
-        .badge {
-          font-size:1.25em;
-          top:-5px;
-          right:20px;
-          background-color:$badgeColor;
-          position:absolute;
-        }
       }
 
+      .badge {
+        font-family:$widgetBadgeFontStyle;//had to add this because the badges lost their font-styling
+        font-size:$widgetBadgeFontSize;
+        top:$widgetBadgeTopPos;
+        right:$widgetBadgeRightPos;
+        background-color:$badgeColor;
+        position:absolute;
+      }
     }
+
+  }
 
 
 }
