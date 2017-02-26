@@ -84,8 +84,26 @@
       <section class='item-details form-group'>
       <header class='form-description'><h3>Item Details</h3></header>
         <form>
+
+          <aside class ='type'>
           <label for="item-type">Item Type</label>
           <input type="text" class="form-control" id="item-type" placeholder="Awesome Widget">
+          </aside>
+
+          <aside class='quantity'>
+          <label for='quantity'>Quantity</label>
+          <input type='number' name='number-obj' min='1' id='quantity' class ='number form-control'>
+          </aside>
+
+          <aside class= "gift-wrap">
+            <label>Gift Wrap?</label>
+            <label  for ='no' class='rad-yes-no'><input type ='radio' name='wrap' id='no' value='No'>
+              No
+            </label>
+            <label  for='yes' class='rad-yes-no'><input type ='radio' name='wrap' id='yes' value='Yes'>
+              Yes
+          </label>
+          </aside>
         </form>
 
       </section>
@@ -93,16 +111,22 @@
       <section class=' your-info form-group'>
         <header class='form-description'><h3>Your Info</h3></header>
         <form>
-          <label for="name">Full Name</label>
-          <input type="text" class="form-control" id="name" placeholder="John Smith">
-          <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="jsmith@bluefield.org">
-          <label for="creditcard">Credit Card</label>
-          <input type="text" class="form-control" id="creditcard" placeholder="xxxx-xxxx-xxxx">
-        <aside class='special'>
-        <label for="expiration">Expiration</label>
-        <input type="text" class="form-control smaller-input" id="expiration" placeholder="January 2017">
-      </aside>
+          <aside>
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="John Smith">
+          <aside>
+          </aside>
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="jsmith@bluefield.org">
+          <aside>
+          </aside>
+            <label for="creditcard">Credit Card</label>
+            <input type="text" class="form-control" id="creditcard" placeholder="xxxx-xxxx-xxxx">
+          </aside>
+          <aside class='expiration'>
+            <label for="exp">Expiration</label>
+            <input type="text" class="form-control smaller-input" id="exp" placeholder="January 2017">
+          </aside>
       </form>
 
       </section>
@@ -113,7 +137,7 @@
     </section>
 
     <footer>
-      <p>'&cop;' The Iron Yard Students</p>
+      <p>&copy; The Iron Yard Students</p>
     </footer>
 
   </body>

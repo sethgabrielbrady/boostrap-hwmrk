@@ -96,15 +96,24 @@ header {
       background-color: white; }
       .ordering .form-group form label {
         margin-top: 1em; }
-      .ordering .form-group form .special {
+      .ordering .form-group form .quantity {
+        display: flex;
+        align-items: center;
+        margin: 1em 0; }
+        .ordering .form-group form .quantity .number {
+          width: 10%;
+          margin-left: 1em; }
+      .ordering .form-group form .gift-wrap {
+        display: flex; }
+        .ordering .form-group form .gift-wrap .rad-yes-no {
+          width: 10%; }
+      .ordering .form-group form .expiration {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin: 1em 0; }
-        .ordering .form-group form .special input {
-          width: 80%;
-          align-self: center; }
-        .ordering .form-group form .special label {
-          align-self: center; }
+        .ordering .form-group form .expiration input {
+          width: 85%; }
   .ordering .btn-primary {
     margin: 0 auto;
     text-align: center;
