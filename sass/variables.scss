@@ -1,6 +1,11 @@
 
 
 
+$sectionPadding:0 1em;
+$toTopMargins:0 1em 1em 0;
+$toTopFontSize:1.25em;
+
+
 $navLinks:#337ab7;
 $textColor:#333333;
 $h1FontSize:4em;
@@ -14,10 +19,8 @@ $headerNavBurgerFontSize:3em;
 
 $jumbotronBgImage:url(blackgeometric.jpg);
 $navJumboTextColor: #ffffff;
-// $jumbotronBgImageSize:auto auto;
-// $jumbtronSize: 20em;
 
-$imgContainerMargin:.75em;
+
 $teamImageMargins:6px 3px;
 $teamImageFlexBasis:30%;
 
@@ -31,10 +34,8 @@ $ourWidgetsBg:#d9edf7;
 $widgetBadges:#337ab7;
 $widgetBagdgesBgColor:#ffffff;
 $ourWidgetsAlertFontWeight:bold;
-$ourWidgetsPadding:1em;
 $ourWidgetsGlyphFlex:1;//need to figure out what is goin on here
 $ourWidgetsGlyphSize:4em;
-$ourWidgetsNavMargin:2em;
 
 $orderNowBtnColor:#5cb85c;
 $orderFormBtnColor:#5cb85c;
@@ -42,11 +43,11 @@ $onHoverOrderNowBtnColor:#449d44;
 $placeOrderBgColor:#ffddcc;
 $fieldHeaderBgBorderColor:#337ab7;
 $fieldHeaderTextColor:#337ab7;
-$formBorderRad:5px;
+$formBorderRadius:5px;
 $orderFormFieldsetBgColor:#ffffff;
 $orderingFieldsetPadding:0 1em 1em 1em;
 $orderingFieldsetLabelMarginTop:1em;
-$orderingPadding:1em 2em;
+$orderingPadding:1em 1em 0 1em;
 $orderingH2Margin:1em;
 $orderingFormDescrH3Margin:.5em auto;
 $orderingQuantityMargin:1em 0;
@@ -59,7 +60,7 @@ $orderingExpirationInputWidth:85%;
 
 
 
-
-
+$footerFontSize:1.25em;
+$footerPadding:1em;
 $footerBgColor:#000000;
 $footerTextColor:#ffffff;

@@ -1,9 +1,11 @@
 
 
 .our-widgets {
+  clear:right;
+  overflow:hidden;
+  padding:$sectionPadding;
   text-align:center;
   background-color:$ourWidgetsBg;
-  padding:$ourWidgetsPadding;
   h2{
     font-size:$h2FontSize;
   }
@@ -21,11 +23,9 @@
 
       i {
         flex:$ourWidgetsGlyphFlex;
-        font-size:$ourWidgetsGlyphSize
+        font-size:$ourWidgetsGlyphSize;
       }
     }
-    nav{
-      margin:$ourWidgetsNavMargin;
-    }
+
 
 }

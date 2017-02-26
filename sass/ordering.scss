@@ -2,15 +2,21 @@
 
 
 .ordering {
+  clear:right;
+  overflow:hidden;
+  padding:$sectionPadding;
   padding:$orderingPadding;
   background-color:$placeOrderBgColor;
   text-align:center;
+
+
   h2{
     margin:$orderingPadding;
     font-size:$h2FontSize;
   }
  .form-group {
-   border-radius:$formBorderRad;
+    margin:1em;
+    border-radius:$formBorderRadius;
     border:2px solid $fieldHeaderBgBorderColor;
     box-sizing: border-box;
     .form-description{
@@ -54,11 +60,8 @@
       }
     }
 }
-
-  .btn-primary {
-   margin:0 auto;
-   text-align:center;
-   background-color:$orderNowBtnColor;
-   border-color:$orderNowBtnColor;
+  p{
+    margin:0
   }
+  
 }

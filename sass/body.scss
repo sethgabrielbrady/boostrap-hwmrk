@@ -3,9 +3,19 @@
 body {
 
   .to-top {
+    font-size:$toTopFontSize;
+    text-decoration:none;
+    padding:$sectionPadding;
+    text-align:right;
     float:right;
-      color:$fieldHeaderBgBorderColor;
+    margin:$toTopMargins;
+    color:$fieldHeaderBgBorderColor;
     }
 
+
+  .btn-primary {
+     background-color:$orderNowBtnColor;
+     border-color:$orderNowBtnColor;
+  }
 
 }
