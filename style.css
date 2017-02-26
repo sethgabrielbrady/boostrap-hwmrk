@@ -77,12 +77,22 @@ header {
     text-align: center;
     font-weight: bold; }
   .our-widgets .glyph-container {
+    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center; }
-    .our-widgets .glyph-container i {
+    align-items: center;
+    list-style: none; }
+    .our-widgets .glyph-container li {
       flex: 1;
-      font-size: 4em; }
+      position: relative; }
+      .our-widgets .glyph-container li i {
+        font-size: 4em; }
+      .our-widgets .glyph-container li .badge {
+        font-size: 1.25em;
+        top: -5px;
+        right: 20px;
+        background-color: #337ab7;
+        position: absolute; }
 
 .ordering {
   clear: right;

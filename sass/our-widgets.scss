@@ -17,14 +17,27 @@
       font-weight:$ourWidgetsAlertFontWeight;
     }
     .glyph-container{
+      padding:0;
       display:flex;
       justify-content: center;
       align-items: center;
+      list-style: none;
 
-      i {
+      li{
         flex:$ourWidgetsGlyphFlex;
-        font-size:$ourWidgetsGlyphSize;
+        position:relative;
+        i {
+          font-size:$ourWidgetsGlyphSize;
+        }
+        .badge {
+          font-size:1.25em;
+          top:-5px;
+          right:20px;
+          background-color:$badgeColor;
+          position:absolute;
+        }
       }
+
     }
 
 
