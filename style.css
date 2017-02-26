@@ -5,10 +5,11 @@ header {
   header h1, header nav {
     flex: 1; }
   header h1 {
+    font-size: 4em;
     padding: 0.25em 0;
     margin: 0; }
   header nav {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     text-align: right;
     align-self: center; }
@@ -18,7 +19,7 @@ header {
   color: #ffffff;
   text-align: center; }
   .jumbotron h2 {
-    font-size: 2.75em; }
+    font-size: 3em; }
   .jumbotron h3 {
     font-weight: lighter; }
   .jumbotron .btn-primary {
@@ -28,7 +29,7 @@ header {
 .summary {
   text-align: center; }
   .summary h2 {
-    font-size: 2.75em; }
+    font-size: 3em; }
   .summary p {
     line-height: 1.5em;
     font-weight: 350;
@@ -52,7 +53,7 @@ header {
   background-color: #d9edf7;
   padding: 1em; }
   .our-widgets h2 {
-    font-size: 2.75em; }
+    font-size: 3em; }
   .our-widgets p {
     line-height: 1.5em;
     font-weight: 350;
@@ -67,9 +68,35 @@ header {
     justify-content: center;
     align-items: center; }
     .our-widgets .glyph-container i {
-      flex: 50%;
+      flex: 1;
       font-size: 4em; }
   .our-widgets nav {
     margin: 2em; }
+
+.ordering {
+  padding: 1em 2em;
+  background-color: #ffddcc;
+  text-align: center; }
+  .ordering h2 {
+    margin: 1em;
+    font-size: 3em; }
+  .ordering .form-group {
+    border-radius: 5px;
+    border: 1px solid #337ab7; }
+    .ordering .form-group .form-description {
+      color: white;
+      background-color: #337ab7; }
+      .ordering .form-group .form-description h3 {
+        margin: .5em auto;
+        text-align: center; }
+    .ordering .form-group form {
+      padding: 1em;
+      text-align: left;
+      background-color: white; }
+  .ordering .btn-primary {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #5cb85c;
+    border-color: #5cb85c; }
 
 /*# sourceMappingURL=style.css.map */

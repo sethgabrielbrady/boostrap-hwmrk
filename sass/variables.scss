@@ -3,13 +3,14 @@
 
 $navLinks:#337ab7;
 $textColor:#333333;
-$h2FontSize:2.75em;
+$h1FontSize:4em;
+$h2FontSize:3em;
 $breakPoint1:55em;//not final names
 $breakPoint2:70em;
 
 $headerH1padding:.25em 0;
 $headerH1Margin:0;
-$headerNavBurgerFontSize:2em;
+$headerNavBurgerFontSize:3em;
 
 $jumbotronBgImage:url(blackgeometric.jpg);
 $navJumboTextColor: #ffffff;
@@ -24,14 +25,22 @@ $bgHover:#555555;
 $onHoverLinks:#ffffff;
 $headerBgColor:#000000 ;
 
-$orderNowBtnColor:#5cb85c;
-$orderFormBtnColor:#5cb85c;
-$onHoverOrderNowBtnColor:#449d44;
+
 
 $ourWidgetsBg:#d9edf7;
 $widgetBadges:#337ab7;
 $widgetBagdgesBgColor:#ffffff;
+$ourWidgetsAlertFontWeight:bold;
+$ourWidgetsPadding:1em;
+$ourWidgetsGlyphFlex:1;//need to figure out what is goin on here
+$ourWidgetsGlyphSize:4em;
+$ourWidgetsNavMargin:2em;
+
+$orderNowBtnColor:#5cb85c;
+$orderFormBtnColor:#5cb85c;
+$onHoverOrderNowBtnColor:#449d44;
 $placeOrderBgColor:#ffddcc;
+
 $fieldHeaderBgBorderColor:#337ab7;
 $fieldHeaderTextColor:#337ab7;
 $footerBgColor:#000000;

@@ -3,17 +3,16 @@
 .our-widgets {
   text-align:center;
   background-color:$ourWidgetsBg;
-  padding:1em;
+  padding:$ourWidgetsPadding;
   h2{
     font-size:$h2FontSize;
-
   }
   p {
     @include paragraphTextStyle;
   }
     .alert{
       text-align:center;
-      font-weight: bold;
+      font-weight:$ourWidgetsAlertFontWeight;
     }
     .glyph-container{
       display:flex;
@@ -21,14 +20,12 @@
       align-items: center;
 
       i {
-        flex:50%;
-        font-size:4em
+        flex:$ourWidgetsGlyphFlex;
+        font-size:$ourWidgetsGlyphSize
       }
     }
-
     nav{
-      margin:2em;
-        
+      margin:$ourWidgetsNavMargin;
     }
 
 }

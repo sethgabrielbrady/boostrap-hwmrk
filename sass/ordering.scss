@@ -1,0 +1,40 @@
+
+
+
+.ordering {
+  padding:1em 2em;
+  background-color:$placeOrderBgColor;
+  text-align:center;
+
+  h2{
+    margin:1em;
+    font-size:$h2FontSize;
+  }
+ .form-group {
+   border-radius:5px;
+    border:1px solid $fieldHeaderBgBorderColor;
+
+    .form-description{
+        color:white;
+        background-color:$fieldHeaderBgBorderColor;
+         h3{
+           margin:.5em auto;
+           text-align:center;
+         }
+      }
+    form{
+      padding:1em;
+      text-align:left;
+      background-color:white;
+    }
+}
+
+
+
+  .btn-primary {
+   margin:0 auto;
+   text-align:center;
+   background-color:$orderNowBtnColor;
+   border-color:$orderNowBtnColor;
+  }
+}
