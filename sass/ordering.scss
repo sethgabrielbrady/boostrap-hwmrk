@@ -2,54 +2,54 @@
 
 
 .ordering {
-  padding:1em 2em;
+  padding:$orderingPadding;
   background-color:$placeOrderBgColor;
   text-align:center;
   h2{
-    margin:1em;
+    margin:$orderingPadding;
     font-size:$h2FontSize;
   }
  .form-group {
-   border-radius:5px;
+   border-radius:$formBorderRad;
     border:2px solid $fieldHeaderBgBorderColor;
     box-sizing: border-box;
     .form-description{
-        color:white;
+        color:$orderFormFieldsetBgColor;
         background-color:$fieldHeaderBgBorderColor;
         box-sizing: border-box;
          h3{
-           margin:.5em auto;
+           margin:$orderingFormDescrH3Margin;
          }
     }
-    form{
-      padding:0 1em 1em 1em;
+    fieldset{
+      padding:$orderingFieldsetPadding;
       text-align:left;
-      background-color:white;
+      background-color:$orderFormFieldsetBgColor;
       label{
-        margin-top:1em;
+        margin-top:$orderingFieldsetLabelMarginTop;
       }
       .quantity{
         display:flex;
         align-items: center;
-        margin:1em 0;
+        margin:$orderingQuantityMargin;
         .number{
-            width:10%;
-            margin-left:1em;
+            width:$orderingQuantityNumberWidth;
+            margin-left:$orderingQuantityNumberMargin-Left;
         }
       }
       .gift-wrap{
         display:flex;
         .rad-yes-no{
-          width:10%;
+          width:$orderingGiftRadioWidth;
         }
       }
       .expiration{
         display:flex;
         justify-content: space-between;
         align-items: center;
-        margin:1em 0;
+        margin:$orderingGiftRadioMargin;
         input{
-          width:85%;
+          width:$orderingExpirationInputWidth;
         }
       }
     }

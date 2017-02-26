@@ -1,3 +1,7 @@
+body .to-top {
+  float: right;
+  color: #337ab7; }
+
 header {
   background-color: #000000;
   color: #ffffff;
@@ -78,41 +82,41 @@ header {
   background-color: #ffddcc;
   text-align: center; }
   .ordering h2 {
-    margin: 1em;
+    margin: 1em 2em;
     font-size: 3em; }
   .ordering .form-group {
     border-radius: 5px;
     border: 2px solid #337ab7;
     box-sizing: border-box; }
     .ordering .form-group .form-description {
-      color: white;
+      color: #ffffff;
       background-color: #337ab7;
       box-sizing: border-box; }
       .ordering .form-group .form-description h3 {
-        margin: .5em auto; }
-    .ordering .form-group form {
+        margin: 0.5em auto; }
+    .ordering .form-group fieldset {
       padding: 0 1em 1em 1em;
       text-align: left;
-      background-color: white; }
-      .ordering .form-group form label {
+      background-color: #ffffff; }
+      .ordering .form-group fieldset label {
         margin-top: 1em; }
-      .ordering .form-group form .quantity {
+      .ordering .form-group fieldset .quantity {
         display: flex;
         align-items: center;
         margin: 1em 0; }
-        .ordering .form-group form .quantity .number {
+        .ordering .form-group fieldset .quantity .number {
           width: 10%;
           margin-left: 1em; }
-      .ordering .form-group form .gift-wrap {
+      .ordering .form-group fieldset .gift-wrap {
         display: flex; }
-        .ordering .form-group form .gift-wrap .rad-yes-no {
+        .ordering .form-group fieldset .gift-wrap .rad-yes-no {
           width: 10%; }
-      .ordering .form-group form .expiration {
+      .ordering .form-group fieldset .expiration {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 1em 0; }
-        .ordering .form-group form .expiration input {
+        .ordering .form-group fieldset .expiration input {
           width: 85%; }
   .ordering .btn-primary {
     margin: 0 auto;
