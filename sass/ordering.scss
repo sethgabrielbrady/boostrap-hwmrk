@@ -19,6 +19,7 @@
     border-radius:$formBorderRadius;
     border:2px solid $fieldHeaderBgBorderColor;
     box-sizing: border-box;
+    background-color:white; //fix this !!!
     .form-description{
         color:$orderFormFieldsetBgColor;
         background-color:$fieldHeaderBgBorderColor;
@@ -63,5 +64,5 @@
   p{
     margin:0
   }
-  
+
 }
