@@ -82,21 +82,39 @@ header {
     font-size: 3em; }
   .ordering .form-group {
     border-radius: 5px;
-    border: 1px solid #337ab7; }
+    border: 2px solid #337ab7;
+    box-sizing: border-box; }
     .ordering .form-group .form-description {
       color: white;
-      background-color: #337ab7; }
+      background-color: #337ab7;
+      box-sizing: border-box; }
       .ordering .form-group .form-description h3 {
-        margin: .5em auto;
-        text-align: center; }
+        margin: .5em auto; }
     .ordering .form-group form {
-      padding: 1em;
+      padding: 0 1em 1em 1em;
       text-align: left;
       background-color: white; }
+      .ordering .form-group form label {
+        margin-top: 1em; }
+      .ordering .form-group form .special {
+        display: flex;
+        justify-content: space-between;
+        margin: 1em 0; }
+        .ordering .form-group form .special input {
+          width: 80%;
+          align-self: center; }
+        .ordering .form-group form .special label {
+          align-self: center; }
   .ordering .btn-primary {
     margin: 0 auto;
     text-align: center;
     background-color: #5cb85c;
     border-color: #5cb85c; }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 2em 1em;
+  text-align: left; }
 
 /*# sourceMappingURL=style.css.map */
