@@ -1,6 +1,5 @@
 
 
-
 .ordering {
   clear:right;
   overflow:hidden;
@@ -9,60 +8,68 @@
   background-color:$placeOrderBgColor;
   text-align:center;
 
+    h2{
+      margin:$orderingPadding;
+      font-size:$h2FontSize;
+    }
 
-  h2{
-    margin:$orderingPadding;
-    font-size:$h2FontSize;
-  }
- .form-group {
-    margin:1em;
-    border-radius:$formBorderRadius;
-    border:2px solid $fieldHeaderBgBorderColor;
-    box-sizing: border-box;
-    background-color:white; //fix this !!!
-    .form-description{
-        color:$orderFormFieldsetBgColor;
-        background-color:$fieldHeaderBgBorderColor;
-        box-sizing: border-box;
-         h3{
-           margin:$orderingFormDescrH3Margin;
-         }
-    }
-    fieldset{
-      padding:$orderingFieldsetPadding;
-      text-align:left;
+   .form-group {
+      margin:1em;
+      border-radius:$formBorderRadius;
+      border:2px solid $fieldHeaderBgBorderColor;
+      box-sizing: border-box;
       background-color:$orderFormFieldsetBgColor;
-      label{
-        margin-top:$orderingFieldsetLabelMarginTop;
-      }
-      .quantity{
-        display:flex;
-        align-items: center;
-        margin:$orderingQuantityMargin;
-        .number{
-            width:$orderingQuantityNumberWidth;
-            margin-left:$orderingQuantityNumberMargin-Left;
+        .form-description{
+          color:$orderFormFieldsetBgColor;
+          background-color:$fieldHeaderBgBorderColor;
+          box-sizing: border-box;
+             h3{
+               margin:$orderingFormDescrH3Margin;
+             }
         }
-      }
-      .gift-wrap{
-        display:flex;
-        .rad-yes-no{
-          width:$orderingGiftRadioWidth;
-        }
-      }
-      .expiration{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        margin:$orderingGiftRadioMargin;
-        input{
-          width:$orderingExpirationInputWidth;
-        }
-      }
+
+        fieldset{
+          padding:$orderingFieldsetPadding;
+          text-align:left;
+          background-color:$orderFormFieldsetBgColor;
+            label{
+              margin-top:$orderingFieldsetLabelMarginTop;
+            }
+          
+            .quantity{
+              display:flex;
+              align-items: center;
+              margin:$orderingQuantityMargin;
+                .number{
+                  width:$orderingQuantityNumberWidth;
+                  margin-left:$orderingQuantityNumberMargin-Left;
+                }
+            }
+
+            .gift-wrap{
+              display:flex;
+                .rad-yes-no{
+                  label{
+                  $orderingGiftRadioLabelMargin:0 1em;
+                  }
+
+                }
+            }
+
+            .expiration{
+              display:flex;
+              justify-content: space-between;
+              align-items: center;
+              margin:$orderingGiftRadioMargin;
+                input{
+                  width:$orderingExpirationInputWidth;
+                }
+            }
+          }
     }
-}
-  p{
-    margin:0
-  }
+
+    p{
+      margin:0
+    }
 
 }

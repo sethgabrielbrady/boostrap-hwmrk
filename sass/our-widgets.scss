@@ -6,43 +6,45 @@
   padding:$sectionPadding;
   text-align:center;
   background-color:$ourWidgetsBg;
-  h2{
-    font-size:$h2FontSize;
-  }
-  p {
-    @include paragraphTextStyle;
-  }
+
+    h2{
+      font-size:$h2FontSize;
+    }
+
+    p {
+      @include paragraphTextStyle;
+    }
+
     .alert{
       text-align:center;
       font-weight:$widgetsAlertFontWeight;
     }
-  .glyph-container{
-    margin:0 auto;
-    padding:$widgetGlyphContainerPadding;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
 
-    li{
-      flex:$widgetsGlyphFlex;
-      align-self: center;
-      i {
-        font-size:$widgetsGlyphSize;
-        position:relative;
+    .glyph-container{
+      margin:$widgetGlyphContainerMargin;
+      padding:$widgetGlyphContainerPadding;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+
+        li{
+          flex:$widgetsGlyphFlex;
+          align-self: center;
+            i {
+              font-size:$widgetsGlyphSize;
+              position:relative;
+            }
+
+            .badge {
+              font-family:$widgetBadgeFontStyle;//had to add this because the badges lost their font-styling
+              font-size:$widgetBadgeFontSize;
+              top:$widgetBadgeTopPos;
+              right:$widgetBadgeRightPos;
+              background-color:$badgeColor;
+              position:absolute;
+            }
+        }
       }
-
-      .badge {
-        font-family:$widgetBadgeFontStyle;//had to add this because the badges lost their font-styling
-        font-size:$widgetBadgeFontSize;
-        top:$widgetBadgeTopPos;
-        right:$widgetBadgeRightPos;
-        background-color:$badgeColor;
-        position:absolute;
-      }
-    }
-
-  }
-
 
 }

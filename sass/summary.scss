@@ -1,16 +1,14 @@
 
 
 .summary {
-  
-
   text-align:center;
 
+    h2{
+      font-size:$h2FontSize;
+    }
 
-  h2{
-    font-size:$h2FontSize;
-  }
-
-  p {
-    @include paragraphTextStyle;
-  }
+    p {
+      @include paragraphTextStyle;
+    }
+    
 }

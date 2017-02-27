@@ -1,43 +1,58 @@
 
 
-
 $sectionPadding:0 1em;
 $toTopMargins:0 1em 1em 0;
 $toTopFontSize:1.25em;
 
-$navLinks:#337ab7;
+$headerNavLinks:#337ab7;
 $textColor:#333333;
 $h1FontSize:3.5em;
 $h2FontSize:3em;
-$breakPoint1:55em;//not final names
-$breakPoint2:70em;
-
+$breakPointTablet:55em;
+$breakPointDesktop:70em;
+$headerLiPadding:1em 0;
+$headerLiMarginLeft:1em;
+$headerPadding:1em;
+$headerNavIconFontWeight:bold;
+$h1Flex:60%;
+$headerNavIconFlex:25%;
+$headerNavFontSize:1.15em;
+$h1TabletFlex:30%;
 $headerH1padding:.25em 0;
 $headerH1Margin:0;
-$headerNavBurgerFontSize:3em;
-
+$headerNavIconFontSize:3em;
+$headerTabletUlMarginLeft:1;
+$headerTabletUlPadding:0;
+$headerLiMargin:1.5em .5em;
+$headerLiPadding:1em .5em;
 $jumbotronBgImage:url(blackgeometric.jpg);
 $navJumboTextColor: #ffffff;
+$headerHoverPadding:.5em;
 
 $teamImageMargins:6px 3px;
 $teamImageFlexBasis:30%;
+$teamImgContainerTabletWidth:65%;
+$teamImgContainerDesktopWidth:45%;
+$teamImgContainerTabletMargin:0 auto;
 
 $bgHover:#555555;
 $onHoverLinks:#ffffff;
-$headerBgColor:#000000 ;
+$headerBgColor:#000000;
 
 $ourWidgetsBg:#d9edf7;
 $widgetBadges:#337ab7;
 $widgetBagdgesBgColor:#ffffff;
 $widgetsAlertFontWeight:bold;
-$widgetsGlyphFlex:1;//need to figure out what is going on here
-$widgetsGlyphSize:4em;
+$widgetsGlyphFlex:1;
 
 $widgetBadgeFontSize:.3em;
 $widgetBadgeTopPos:0;
 $widgetBadgeRightPos:-20px;
 $widgetBadgeFontStyle: sans-serif;
 $widgetGlyphContainerPadding:0;
+$widgetGlyphContainerMargin:0 auto;
+$widgetGlyphContainerWidth:60%;
+
 
 $orderNowBtnColor:#5cb85c;
 $orderFormBtnColor:#5cb85c;
@@ -57,9 +72,9 @@ $orderingQuantityMargin:1em 0;
 $orderingQuantityNumberWidth:4em;
 $orderingQuantityNumberMargin-Left:1em;
 $orderingGiftRadioMargin:1em 0;
-$orderingGiftRadioWidth:5%; //need to fix this
+$orderingGiftRadioLabelMargin:0 1em;
 $orderingExpirationInputWidth:85%;
-
+$formHeaderTabletFlex:45%;
 
 $footerFontSize:1.25em;
 $footerPadding:1em;

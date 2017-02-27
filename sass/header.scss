@@ -5,35 +5,42 @@ header{
   color:$navJumboTextColor;
   display:flex;
   box-sizing: border-box;
+  flex-wrap:wrap;
+  padding:$headerPadding;
 
-  h1, nav, i{
-    flex:1;
-  }
+    h1 {
+      font-size:$h1FontSize;
+      padding:$headerH1padding;
+      margin:$headerH1Margin;
+      flex:$h1Flex;
+    }
 
-  h1 {
-    font-size:$h1FontSize;
-    padding:$headerH1padding;
-    margin:$headerH1Margin;
-  }
+    .glyphicon-menu-hamburger {
+      flex:$headerNavIconFlex;
+      font-size:$headerNavIconFontSize;
+      font-weight:$headerNavIconFontWeight;
+      text-align:right;
+      align-self: center;
+    }
+    .glyphicon-menu-hamburger:hover ~ nav {
+      display:block;
+    }
 
-  nav {
-    display:none;
-    ul{
-      color:#337ab7;
-      list-style:none;
+    nav {
+      display:none;
+      ul{
+        text-decoration: none;
+        color:$headerNavLinks;
+        list-style:none;
+        font-size:$headerNavFontSize;
 
-       li{
-         display:inline;
-         padding:1em 0;
-         margin-left:1em;
+         li{
+           padding:$headerLiPadding;
+           margin-left:$headerLiMarginLeft;
+         }
        }
     }
-}
 
-  .glyphicon-menu-hamburger {
-    font-size:$headerNavBurgerFontSize;
-    font-weight:bold;
-    text-align:right;
-    align-self: center;
-  }
+
+
 }

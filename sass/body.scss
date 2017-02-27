@@ -2,21 +2,24 @@
 
 body {
 
-
   .to-top {
-    font-size:$toTopFontSize;
-    text-decoration:none;
-    padding:$sectionPadding;
-    text-align:right;
-    float:right;
-    margin:$toTopMargins;
-    color:$fieldHeaderBgBorderColor;
-    }
-
+  font-size:$toTopFontSize;
+  text-decoration:none;
+  padding:$sectionPadding;
+  text-align:right;
+  float:right;
+  margin:$toTopMargins;
+  color:$fieldHeaderBgBorderColor;
+  }
 
   .btn-primary {
-     background-color:$orderNowBtnColor;
-     border-color:$orderNowBtnColor;
+   background-color:$orderNowBtnColor;
+   border-color:$orderNowBtnColor;
+  }
+  
+  .btn-primary:hover{
+    background-color:$onHoverOrderNowBtnColor;
+    border-color:$onHoverOrderNowBtnColor;
   }
 
 }
