@@ -2,6 +2,14 @@
 
 @media screen and (min-width: 70em) {
 
+  .header-nav {
+    font-size:1.5em;
+    a:hover{
+      padding:.75em .75em;
+    }
+  }
+
+
     .team {
       .img-container {
         width:45%;
@@ -10,7 +18,6 @@
     }
 
     .glyph-container{
-      // margin:0 auto;
       width:60%;
     }
 

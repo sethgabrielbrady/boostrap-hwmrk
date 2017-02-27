@@ -13,14 +13,24 @@ body .btn-primary {
 header {
   background-color: #000000;
   color: #ffffff;
-  display: flex; }
-  header h1, header nav {
+  display: flex;
+  box-sizing: border-box; }
+  header h1, header nav, header i {
     flex: 1; }
   header h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     padding: 0.25em 0;
     margin: 0; }
   header nav {
+    display: none; }
+    header nav ul {
+      color: #337ab7;
+      list-style: none; }
+      header nav ul li {
+        display: inline;
+        padding: 1em 0;
+        margin-left: 1em; }
+  header .glyphicon-menu-hamburger {
     font-size: 3em;
     font-weight: bold;
     text-align: right;
@@ -130,7 +140,7 @@ header {
         align-items: center;
         margin: 1em 0; }
         .ordering .form-group fieldset .quantity .number {
-          width: 3em;
+          width: 4em;
           margin-left: 1em; }
       .ordering .form-group fieldset .gift-wrap {
         display: flex; }
@@ -154,6 +164,27 @@ footer {
   font-size: 1.25em; }
 
 @media screen and (min-width: 55em) {
+  .header-nav {
+    box-sizing: border-box;
+    text-align: right;
+    display: inline;
+    align-self: center;
+    font-size: 1.5; }
+
+  ul {
+    margin: 0;
+    padding: 0; }
+    ul li {
+      margin: 1.5em 0; }
+      ul li a:hover {
+        padding: 1.5em .5em;
+        background-color: #555555;
+        color: #ffffff;
+        height: 100%; }
+
+  .glyphicon-menu-hamburger {
+    display: none; }
+
   .team .img-container {
     width: 65%;
     margin: 0 auto; }
@@ -170,6 +201,11 @@ footer {
   .btn-confirm {
     display: block; } }
 @media screen and (min-width: 70em) {
+  .header-nav {
+    font-size: 1.5em; }
+    .header-nav a:hover {
+      padding: .75em .75em; }
+
   .team .img-container {
     width: 45%;
     margin: 0 auto; }

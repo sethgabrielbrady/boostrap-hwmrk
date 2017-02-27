@@ -1,6 +1,32 @@
 
 @media screen and (min-width: 55em) {
 
+  .header-nav {
+    box-sizing: border-box;
+    text-align: right;
+    display:inline;
+    align-self: center;
+    font-size:1.5;
+  }
+  ul{
+    margin:0;
+    padding:0;
+      li{
+
+      margin:1.5em 0;
+        a:hover{
+          padding:1.5em .5em;
+          background-color:$bgHover;
+          color:$onHoverLinks;
+          height:100%;
+        }
+      }
+    }
+
+  .glyphicon-menu-hamburger {
+    display:none;
+  }
+
   .team {
     .img-container {
       width:65%;

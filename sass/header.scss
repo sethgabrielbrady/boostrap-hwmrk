@@ -4,8 +4,9 @@ header{
   background-color:$headerBgColor;
   color:$navJumboTextColor;
   display:flex;
+  box-sizing: border-box;
 
-  h1, nav{
+  h1, nav, i{
     flex:1;
   }
 
@@ -16,6 +17,20 @@ header{
   }
 
   nav {
+    display:none;
+    ul{
+      color:#337ab7;
+      list-style:none;
+
+       li{
+         display:inline;
+         padding:1em 0;
+         margin-left:1em;
+       }
+    }
+}
+
+  .glyphicon-menu-hamburger {
     font-size:$headerNavBurgerFontSize;
     font-weight:bold;
     text-align:right;
